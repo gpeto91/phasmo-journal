@@ -1,0 +1,25 @@
+.select {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.select input {
+    flex: 1;
+    height: 40px;
+    background-color: transparent;
+    color: #757575;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.select button {
+    width: 40px;
+    font-size: 28px;
+    color: goldenrod;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

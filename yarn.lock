@@ -9333,6 +9333,11 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-cool-portal@^1.0.25:
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/react-cool-portal/-/react-cool-portal-1.0.25.tgz#54d4a59a82ad5c0bbac52432d0d3cae8a284cad9"
+  integrity sha512-kYhG7WK6P4ucvtrCvNVIl57xIcUNgNK/y7xW3W9KDC1A3hcNUXpEQkPHQxdrEmfjvuKQ/GZlksIJE23PpmOWWg==
+
 react-dev-utils@^11.0.0:
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.0.tgz#9fdb1b173f4ffc1f23fcf98465d93b16a860b73e"

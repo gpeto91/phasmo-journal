@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, input, button {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+    background-color: #202020;
+    min-height: 100%;
+    height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin: 0;
+    padding: 15px;
+    padding-top: 20px;
+    min-height: 100%;
+    height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+    color: #f2f2f2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#modal p {
+    color: #000;
+}
+
+#root {
+    height: 100%;
+}
+
+.wrapper {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.wrapper button {
+    margin-bottom: 15px;
+}
+
+.ghost-wrapper {
+    display: flex;
+    margin: 0 -5px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.evidenceWrapper {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lookingForText {
+    height: 80px;
 }
